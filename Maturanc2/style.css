@@ -1,0 +1,106 @@
+nav{
+    height: 100px; 
+    line-height: 100px; 
+    background: #2C288A !important; 
+    box-shadow: 0 0 0 0 !important;
+}
+
+nav ul li{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-collapse{
+    height: 100px !important;
+    line-height: 100px !important;
+}
+.button-collapse i.material-icons{
+    height: 100px !important;
+    line-height: 100px !important;
+    font-size: 28pt !important;
+}
+.btn{
+    border-radius: 0px;
+    background: #E03D4A !important;
+}
+.inverzno{
+    border: #E03D4A solid 4px;
+    background: transparent !important;
+    height: 80px;
+    line-height: 72px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+.ralewaynaslov{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 23pt;
+}
+.domovbanner{
+        height: 95vh;
+        background: #2C288A;
+    }
+/*Najmanjši ekran*/
+@media screen and (max-width:600px) {
+    .inverzno{
+        border: #E03D4A solid 2px;
+        height: 50px;
+        line-height: 44px;
+        font-size: 8pt;
+    
+    }
+    .ralewaynaslov{
+        
+         font-size: 12pt !important;
+         line-height: 130%;
+         padding:0 17px !important;
+    }
+    .maturancdomov{
+        margin: 50px 0 20px 0 !important;
+        padding: 0 17px !important;
+    }
+    .maturanclogo{
+        margin:40px 0px 40px 0px; 
+        height:20px; 
+        width: auto; 
+    }
+    
+}
+
+/*Srednji ekran*/
+@media screen and (max-width:991px) {
+    .maturancdomov{
+        margin: 100px 0 50px 0;
+        padding: 0 30px;
+    }
+    .ralewaynaslov{
+        
+        font-size: 3.4vw;
+        padding:0 30px;
+    }
+    .domovbanner{
+        height: 100vh;
+    }
+    .maturanclogo{
+        margin:40px 0px 40px 0px; 
+        height:20px; 
+        width: auto; 
+    }
+   
+}
+/*Največji ekran*/
+@media screen and (min-width:992px) {
+    .maturanclogo{
+        margin:40px 0px 40px 80px; 
+        height:20px; 
+        width: auto; 
+    }
+    .maturancdomov{
+        margin: 200px 0 50px 0;
+        
+    }
+    
+}
+
