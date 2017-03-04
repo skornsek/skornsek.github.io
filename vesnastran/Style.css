@@ -1,0 +1,12 @@
+.slikce img{
+    
+   
+}
+@media only screen and (min-width: 993px){
+nav a.button-collapse {
+    display: block !important;
+}
+}
+.nav-wrapper{
+    background:#000;
+}
