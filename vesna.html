@@ -5,86 +5,100 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+      <link rel="stylesheet" href="set1.css">
       <link rel="stylesheet" href="style.css">
+      
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
     </head>
 
     <body>
-        <nav>
-            <div class="nav-wrapper">
-                <a href="vesna.html" class="brand-logo center">Vesna design</a>
-                <ul id="slide-out" class="side-nav">
-                    <li><a href="vesna.html">Portfolio</a></li>
-                    <li><a href="#!">O meni</a></li>
-                    <li><a href="#!">Kontakt</a></li>
-                </ul>
-                <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-            </div>       
-        </nav>
-        <div class="slikce row">
-            <div class="col s12 m6 l3">
-            <div class="card hoverable">
-                <div class="card-image">
-                    <div class="card-image waves-effect waves-block waves-light">
+        
+             <a href="#" id="menugumb" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+             <h3 style="height: 60px; position: absolute; top: 0px; left: 80px;">Vesna</h3>
+        
+        <div class="vsebina">
+        
+                
+                    <ul id="slide-out" class="side-nav" >
+                        <div class="seznammenija">
+                            <li><a href="vesna.html">Portfolio</a></li>
+                            <li><a href="#!">O meni</a></li>
+                            <li><a href="#!">Kontakt</a></li>
+                        </div>
+                    </ul>
+                
+        
+       <div class="grid">
+           <figure class="effect-oscar polovica">
+               <a href="#"><img class="responsive-img activator" src="slike/Sweeney-diploma-min.jpg" /></a>
+               <figcaption><h2>Sweney <span>todd</span></h2><p>Še neki teksta pol </p></figcaption>
+               </figure>
+               <figure class="effect-marley cetrtina">
+               <a href="#"><img class="responsive-img activator" src="slike/Hrestac-diploma-min.jpg" /></a>
+               <figcaption><h2>Hrestač</h2><p>Še neki teksta pol </p></figcaption>
+               </figure>
+               <figure class="effect-marley cetrtina">
+               <a href="#"><img class="responsive-img activator" src="slike/Hrestac-diploma-min.jpg" /></a>
+               <figcaption><h2>Hrestač</h2><p>Še neki teksta pol </p></figcaption>
+               </figure>
+               <figure class="effect-oscar cetrtina">
+               <a href="#"><img class="responsive-img activator" src="slike/Sweeney-diploma-min.jpg" /></a>
+               <figcaption><h2>Sweney todd</h2><p>Še neki teksta pol </p></figcaption>
+               </figure>
+               <figure class="effect-oscar cetrtina">
+               <a href="#"><img class="responsive-img activator" src="slike/Sweeney-diploma-min.jpg" /></a>
+               <figcaption><h2>Sweney todd</h2><p>Še neki teksta pol </p></figcaption>
+               </figure>
 
-                         <a href="sweeney.html"><img class="responsive-img activator" src="slike/Sweeney-diploma-min.jpg" /></a>
-
-                </div>
-                </div>
-            </div>
-            </div>
+               
+           
+            <!--<div class="slikce row">
+                <div class="col s12 m6 l3">
             
-            <div class="col s12 m6 l3">
-            <div class="card hoverable">
-                <div class="card-image">
-                    <div class="card-image waves-effect waves-block waves-light">
 
-                         <img class="responsive-img activator" src="slike/Hrestac-diploma-min.jpg" />
+                            
 
+                    
                 </div>
-                </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-            <div class="card hoverable">
-                <div class="card-image">
-                    <div class="card-image waves-effect waves-block waves-light">
+                
+                <div class="col s12 m6 l3">
+                
 
-                         <img class="responsive-img activator" src="slike/Henkipenki-diploma-min.jpg" />
+                            
 
+                    
                 </div>
-                </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-            <div class="card hoverable">
-                <div class="card-image">
-                    <div class="card-image waves-effect waves-block waves-light">
+                <div class="col s12 m6 l3">
+                        
 
-                         <img class="responsive-img activator" src="slike/Ana-diploma-min.jpg" />
-
+                
                 </div>
-                </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-            <div class="card hoverable">
-                <div class="card-image">
-                    <div class="card-image waves-effect waves-block waves-light">
-
-                         <img class="responsive-img activator" src="slike/Labodje_jezero-210x297-min.jpg" />
-
-                </div>
-                </div>
-            </div>
-            </div>
+                <div class="col s12 m6 l3">
             
+                            
+
+                    
+                </div>
+                <div class="col s12 m6 l3">
+                    
+
+                
+                </div>
+                
+            </div>-->
+       </div>
         </div>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-   
+      <script src="masonry.pkgd.min.js"></script>
+ <!--  <script>
+    $('.grid').masonry({
+            
+        })
+   </script>-->
       
       <script>
        $('.button-collapse').sideNav();
