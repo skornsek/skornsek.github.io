@@ -4,57 +4,64 @@
 <head>
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
     <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
+    
+    
     <link rel="stylesheet" href="jquery.fullpage.min.css">
-
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
 </head>
 
 <body>
-    <div class="header">
-        <nav>
-            <div class="nav-wrapper">
-                <div class="nav-content">
-                    <a href="#" class="brand-logo"><img class="maturanclogo" src="slike/MATURANC.png" /></a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" data-activates="dropdown1" href="#">Maturantski ples</a></li>
-                        <li><a href="#">Trgovina</a></li>
-                        <li><a href="#">Izlet</a></li>
-                        <li><a class="btn waves-effect waves-light" href="#">Prijava</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" data-activates="dropdown1" href="#">Maturantski ples</a></li>
-                        <li><a href="#">Trgovina</a></li>
-                        <li><a href="#">Izlet</a></li>
-                        <li><a class="btn waves-effect waves-light" href="#">Prijava</a></li>
-                    </ul>
-                    <ul id='dropdown1' class='dropdown-content'>
-                        {% if user.is_authenticated %}
-                        <li><a href="{% url 'iskanje' %}">Iskanje soplesalcev</a></li>
-                        {% else %}
-                        <li><a href="#modal1" class="modal-trigger">Iskanje soplesalcev</a></li>
-                        {% endif %}
-                        <li><a href="#">Plesne šole</a></li>
-                </div>
+    <div class="glavnimeni">
+    <nav id="menu">
+        <div class="nav-wrapper">
+            <div class="nav-content">
+                <a href="#" class="brand-logo"><img class="maturanclogo" src="slike/MATURANC.png" /></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" data-activates="dropdown1" href="#">Maturantski ples</a></li>
+                    <li><a href="#">Trgovina</a></li>
+                    <li><a href="#">Izlet</a></li>
+                    <li><a class="btn waves-effect waves-light" href="#">Prijava</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" data-activates="dropdown1" href="#">Maturantski ples</a></li>
+                    <li><a href="#">Trgovina</a></li>
+                    <li><a href="#">Izlet</a></li>
+                    <li><a class="btn waves-effect waves-light" href="#">Prijava</a></li>
+                </ul>
+                <ul id='dropdown1' class='dropdown-content'>
+                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'iskanje' %}">Iskanje soplesalcev</a></li>
+                    {% else %}
+                    <li><a href="#modal1" class="modal-trigger">Iskanje soplesalcev</a></li>
+                    {% endif %}
+                    <li><a href="#">Plesne šole</a></li>
             </div>
-        </nav>
+        </div>
+    </nav>
     </div>
+    
     <div id="fullpage">
-        <div class="section">
+           
 
-            <div class="domovbanner valign-wrapper">
+    
+        
+
+            <div class="section domovbanner valign-wrapper">
                 <div class="container">
-                    <div class="row">
+                    <div class="paddingrazred">
+                    <div class="row" >
                         <div class="col s12">
                             <center>
 
@@ -66,15 +73,16 @@
                             </center>
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        
 
 
         <div class="belabg domov-funkcija section" id="iskanje">
             <div class="container">
                 <div class="domovfunkcije ">
-                    <div class="row " style="margin: 0px">
+                    <div class="row">
                         <div class="col s12 naslovfunkcijelevo">
                             <h1 class="funkcije-strani rdeca">Iskanje<br>soplesalcev</h1>
                         </div>
@@ -100,7 +108,7 @@
             <div class="container">
 
                 <div class="domovfunkcije">
-                    <div class="row" style="margin: 0px">
+                    <div class="row">
                         <div class="col s12 naslovfunkcijedesno">
                             <h1 class="funkcije-strani">Plesne<br>šole</h1>
                         </div>
@@ -126,7 +134,7 @@
         <div class="belabg domov-funkcija section" id="prodaja">
             <div class="container">
                 <div class="domovfunkcije">
-                    <div class="row" style="margin: 0px">
+                    <div class="row" >
                         <div class="col s12 naslovfunkcijelevo">
                             <h1 class="funkcije-strani rdeca">Prodaja<br>potrebščin</h1>
                         </div>
@@ -149,7 +157,7 @@
             <div class="container">
 
                 <div class="domovfunkcije">
-                    <div class="row" style="margin: 0px">
+                    <div class="row" >
                         <div class="col s12 naslovfunkcijedesno">
                             <h1 class="funkcije-strani">Maturantski<br>izlet</h1>
                         </div>
@@ -175,7 +183,7 @@
 
         <footer class="page-footer section fp-auto-height" >
 
-            <div class="row">
+            <div class="row" style="margin: 0px;" >
                 <div class="col l6 s12">
 
                     <ul class="socialmedianoga">
@@ -225,10 +233,8 @@
     <script>
         $('.button-collapse').sideNav();
         $(document).ready(function () {
-            $('#fullpage').fullpage({ function(){
-                $('.header').addClass('fixed');
-            }
-                
+            $('#fullpage').fullpage({
+                   
             });
         });
     </script>

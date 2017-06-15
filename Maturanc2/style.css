@@ -63,7 +63,7 @@ footer {
 }
 .domovbanner{
         
-        height: 100vh;
+        
         background: #2C288A;
     }
 /*Funkcije strani*/
@@ -73,14 +73,14 @@ footer {
     padding: 100px 17px;
 }
 .domov-funkcija{
-    height: 100vh;
+    
 }
 .domovfunkcije h1{
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 1px;
     color: #2C288A;
-    
+    line-height: 1em;
     margin-top: 0px !important;
     
 }
@@ -119,6 +119,9 @@ footer {
     font-size:  12pt;
     font-weight: 300;
 }
+.domovfunkcije{
+    max-width:900px !important; 
+}
 /*Barve funkcij*/
 .belabg{
     background: #fff !important;
@@ -141,13 +144,10 @@ footer {
     color:#E03D4A !important;
 }
 
-/*slider*/
-.bx-wrapper{
-    border: 0px !important;
-    width: 100% !important;
-    box-shadow: 0 0 !important;
+/*jsallpage*/
+#fullpage.section{
+    padding: 0rem !important;
 }
-
 
 
 /* noga*/
@@ -201,6 +201,9 @@ footer {
     text-align: right;
     
 }
+.paddingrazred{
+    padding: 10px 15px;
+}
 #izleti.fp-tableCell{
     margin-bottom: 0px !important;
 }
@@ -218,12 +221,9 @@ footer {
         
          font-size: 12pt !important;
          line-height: 130%;
-         padding:0 17px !important;
+         
     }
-    .maturancdomov{
-        margin: 0 0 20px 0 !important;
-        padding: 0 17px !important;
-    }
+
     .maturanclogo{
         margin:40px 0px 40px 0px; 
         height:20px; 
@@ -239,9 +239,34 @@ footer {
     .nav-content{
         margin: 0 !important;
     }
+    .domov-funkcija .container .row
+    {
+        margin-top: 70px !important;
+    
+    }
     .domovfunkcije h1{
             font-size: 3em;
+            font-weight: 900;
+            margin-bottom: 10px;
     }
+    .domovfunkcije h2{
+            font-size: 1em;
+            line-height: 1.2em;
+    }
+   
+    .domovfunkcije p{
+        
+        font-size:  9pt;
+        font-weight: 300;
+    }
+    .domovfunkcije{
+        padding: 10px 15px;
+    }
+    .crtastolpec{
+        height: 15px;
+        margin-bottom: 17px;
+    }
+
 
     
     
@@ -249,16 +274,15 @@ footer {
 
 /*Srednji ekran*/
 @media screen and (max-width:991px) {
-    .maturancdomov{
-        margin: 0 0 50px 0;
-        padding: 0 30px;
-    }
+
     .ralewaynaslov{
         
         font-size: 3.2vw;
-        padding:0 30px;
+        
     }
-    
+    .domovbanner{
+        height: 100vh;
+    }
     .maturanclogo{
         margin:40px 0px 40px 0px; 
         height:20px; 
@@ -278,10 +302,7 @@ footer {
 .nav-content{
     margin: 0 !important;
 }
- .maturancdomov{
-        margin: 0 0 30px 0 !important;
-        padding: 0 17px !important;
-    }
+
    
 }
 /*Največji ekran*/
@@ -307,24 +328,14 @@ footer {
     }
 
 }
-.header{
-    -webkit-transition: all 0.7s ease;  
-    -moz-transition: all 0.7s ease;  
-      -o-transition: all 0.7s ease; 
-         transition: all 0.7s ease; 
 
-    position:absolute;
-    top:100%;
-    margin-top: -100px;
-    left:0;
-    background:#000;
-    width:100%;
-    color: #fff;
-    height: 100px;
-    z-index:999;
-}
-.header.fixed{
-    bottom:auto;
+.glavnimeni{
+    position: absolute;
     top:0;
-    margin-top: 0;
+    width:100%;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+.fp-tableCell{
+    height: 100% !important;
 }
