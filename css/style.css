@@ -1,0 +1,67 @@
+html{
+    min-height:100%;
+    position:relative;
+}
+body{
+    font-family: 'Raleway', sans-serif; 
+    color: #fff;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    background: #8F8D9C;
+}
+.vsebina{
+    
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    height: 90%;
+    width: 60%;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+img.animacija{
+   margin: 0 auto !important;
+   display: block;
+   
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+#link:hover{
+    color:yellow;
+    
+  
+}
+#link{
+    font-weight:bold;
+    font-size:25px;
+
+}
+.socialmedia p{
+    font-size: 30px;
+}
+a { 
+    color: #fff; 
+    text-decoration: none; 
+    
+}
+a:hover { 
+    color: #333;
+    text-decoration: none;
+}
+p.light{
+    font-weight: 400;
+}
+#here i{
+    margin: 0 20px;
+}
