@@ -1,0 +1,98 @@
+.slikce img{
+    
+   
+}
+@media only screen and (min-width: 993px){
+nav a.button-collapse {
+    display: block !important;
+}
+}
+.nav-wrapper{
+    background:#000;
+}
+.col{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.vsebina{
+    padding: 80px;
+    width: 100%;
+}
+#menugumb{
+    height: 33vh;
+    position: fixed;
+    top:33vh;
+    width: 80px;
+    text-align: center;
+    line-height: 33vh;
+}
+.seznammenija{
+    height: 144px;
+    position: relative;
+    top:50%;
+    margin-top: -72px;
+}
+
+.grid{
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+}
+.grid-item{
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+
+}
+figure{
+    margin: 0px !important;
+    padding: 0px;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+.row{
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+
+/*najmanjši*/
+@media screen and (max-width:600px) {
+    
+.polovica{
+    
+}
+.cetrtina{
+    width: 50%;
+    height: auto;
+
+}
+}
+/*srednji*/
+@media screen and (max-width:991px) {
+.polovica{
+    width: 100%;
+    height: auto;
+}
+.cetrtina{
+    width: 50%;
+    height: 100;
+
+}
+}
+/*Največji ekran*/
+@media screen and (min-width:992px) {
+ .polovica{
+    max-width: 50% !important;
+    max-height: 100% !important;  
+}
+.cetrtina{
+    max-width: 25% !important;
+    max-height: 100% !important;
+
+}
+}
+.kvadrat{
+    width:500px;
+    height: 500px;
+    background-color: #5f88ff;
+}
