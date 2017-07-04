@@ -1,36 +1,48 @@
-<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        <title>Vesna Skornšek</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+    </head>
+    <body>
+        <div class="vsebina">
+            <h1>[ work in progress ]</h1>
+            
+            <img class="animacija" src=https://media.giphy.com/media/3o8dpa7eig6CeVx076/giphy.gif >
+            <p>At the moment you can check out my temporary portfolio</p>
+            <p id="here"><i class="fa fa-arrow-down puscica" aria-hidden="true"></i>here<i class="fa fa-arrow-down puscica" aria-hidden="true"></i><br></p>
+		    <p><a id="link" href="/portfolio.html">PORTFOLIO</a></p>
+            <p class="light">&mdash; Vesna Skornšek &mdash; </p>
+            <div class="socialmedia">
+                <p>
+                <a href="https://www.instagram.com/vesnaskornsek/" style="margin: 0 10px 0 0"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/vesna.skornsek?fref=ts" style="margin: 0 10px"><i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a>
+                <a href="mailto:v.skornsek@gmail.com" style="margin: 0 10px"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
+                </p>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function() {
+                var f = document.getElementById('link');
+                var x = document.getElementsByClassName('puscica')[0];
+                var y = document.getElementsByClassName('puscica')[1];
+                setInterval(function() {
+                    f.style.color = (f.style.color == 'yellow' ? '' : 'yellow');
+                    x.style.display = (x.style.display == 'none' ? '' : 'none');
+                    y.style.display = (y.style.display == 'none' ? '' : 'none');
+                }, 500); 
 
-<head>
-    <title>Vesna Skornšek</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <meta charset="utf-8">
-</head>
+                
+               
+                
+            });
 
-<style>
-  body { text-align: center; padding-top: 150px; background: #8F8D9C}
-  h1 { font-size: 50px; }
-  body { font: 25px Helvetica, sans-serif; color: #fff; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #fff; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+        </script>
+    </body>
 
-<article>
-    <center><h1>[ work in progress ]</h1>
-    
-    </center>
-    <div>
-        
-        <img style="margin-top:  20px" src=https://media.giphy.com/media/3o8dpa7eig6CeVx076/giphy.gif >
-        <center>
-        <p style="font-variant: small-caps; margin-top:10px;">see you soon</p>
-        <p style="font-size: 12pt">&mdash; Vesna Skornšek &mdash; </p>
-        <a href="https://www.instagram.com/vesnaskornsek/" style="margin: 0 10px 0 0"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/vesna.skornsek?fref=ts" style="margin: 0 10px"><i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a>
-        <a href="mailto:v.skornsek@gmail.com" style="margin: 0 10px"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
-        </center>
-    </div>
-	<div data-configid="15932905/50815067" style="width:100%; height:800px;" class="issuuembed"></div>
-<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-   
-</article>
+</html>
