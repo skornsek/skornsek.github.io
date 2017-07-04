@@ -1,0 +1,85 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+    
+    
+}
+
+input[type=text]{
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+@media (max-width: 600px) {
+    body{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        
+        
+    }
+
+    input[type=text]{
+        height: 30px;
+        line-height: 30px;
+        font-size: 30px;
+        font-family: 'Amatic SC', cursive;
+    }
+    .box
+    {
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        overflow:hidden;
+        padding: 50px;
+        margin: 25px;
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+        
+    }
+
+}
+@media (min-width: 601px) {
+  .box
+{
+	position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+	width: 40%;
+	padding: 50px;
+	margin: 25px auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    
+}
+
+}
