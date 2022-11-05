@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://skornsek.si/sitemap.xml
