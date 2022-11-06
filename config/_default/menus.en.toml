@@ -11,6 +11,10 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+    name = "Work Experience"
+    pageRef = "work-experience"
+    weight = 10
+
 
 
 # -- Footer Menu --
