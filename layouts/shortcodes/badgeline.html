@@ -1,0 +1,5 @@
+{{$allparams := .Params }}
+
+{{ range $allparams }}
+{{ partial "badgelineitem.html" . }}
+{{end}}
