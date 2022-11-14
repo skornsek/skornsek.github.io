@@ -59,4 +59,5 @@ dateFormat = "2 January 2006"
   #   { twitter = "https://twitter.com/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
+      { spotify = "https://open.spotify.com/playlist/6zDkFuEzmws2HwXaagvXdh?si=eb6a77f9eb8e477e&nd=1" },
   ]
